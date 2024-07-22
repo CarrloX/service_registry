@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-SericeRegistryApplication<serice-registry>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.riwi.serice_registry.SericeRegistryApplication",
+            "projectName": "serice-registry",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}

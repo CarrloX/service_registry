@@ -1,0 +1,9 @@
+spring:
+    application:
+        name: service-registry
+server:
+    port: 8761 #puerto por defecto de Eureka
+eureka:
+    client:
+        registerWithEureka: false
+        fetchRegistry: false #No necesita consultar los registros    
